@@ -25,7 +25,7 @@ SECRET_KEY = '$67i554%z$iz@202mdacu2u!##q^(xcvp+iu7j8uk05+06w0zu'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'apps.core',
+    'apps.imoveis',
 ]
 
 MIDDLEWARE = [

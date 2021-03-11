@@ -9,8 +9,9 @@ class Movel(models.Model):
     )
     categoria_CHOICES = (
         ("RE", "Residencial"),
+        ("CO", "Corporativo"),
         ("EC", "Escritório"),
-        ("HO", "Home-office"),
+        ("HO", "Home Office"),
         ("ES", "Estudante"),
     )
 
